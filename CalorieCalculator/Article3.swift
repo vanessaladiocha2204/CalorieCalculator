@@ -16,7 +16,7 @@ struct Article3: View {
                     .frame(width: 350, height: 300)
                     .cornerRadius(15)
                     .shadow(color: .gray, radius: 5, x: 5, y: 5)
-                    .padding(.top, -40)
+                    .padding(.top)
                 
                 Text("Eating a Balanced Diet")
                     .bold()

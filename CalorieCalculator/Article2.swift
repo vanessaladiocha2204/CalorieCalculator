@@ -18,7 +18,7 @@ struct Article2: View {
                     .shadow(color: .gray, radius: 5, x: 5, y: 5)
                     .cornerRadius(15)
                     .shadow(color: .gray, radius: 5, x: 5, y: 5)
-                    .padding(.top, -40)
+                    .padding(.top)
                 
                 Text("Calories and Health")
                     .bold()

@@ -33,7 +33,7 @@ struct CalculatePage: View {
                     Text("Calculate Your Calorie!")
                         .bold()
                         .font(.title)
-                        .padding(.top, -50)
+                        .padding(.top)
                     
                     VStack(alignment: .leading) {
                         Text("Weight")
@@ -127,6 +127,9 @@ struct CalculatePage: View {
                             })
                             
                         })
+                        .onAppear() {
+                            isSubmitted = false
+                        }
     //                    .foregroundColor(.white)
     //                    .padding(.leading, 40)
     //                    .padding(.trailing, 40)

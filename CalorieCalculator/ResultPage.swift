@@ -39,7 +39,7 @@ struct ResultPage: View {
                 .foregroundColor(.white)
                 .background(.green)
                 .cornerRadius(10)
-                .padding(.top, -30)
+                .padding(.top)
             
             
             

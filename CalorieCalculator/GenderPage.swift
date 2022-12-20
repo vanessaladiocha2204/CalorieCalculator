@@ -19,7 +19,7 @@ struct GenderPage: View {
                     .bold()
                     .font(.largeTitle)
                     .lineSpacing(40)
-                    .padding(.top, -35)
+                    .padding(.top)
                
                     HStack{
                         Spacer()
@@ -102,6 +102,9 @@ struct GenderPage: View {
                             .bold()
                     } )
                 })
+                .onAppear() {
+                    isSubmitted = false
+                }
                 .foregroundColor(.white)
                 .padding(.leading, 60)
                 .padding(.trailing, 60)
@@ -110,6 +113,8 @@ struct GenderPage: View {
                 .background(.green)
                 .cornerRadius(12)
                 .padding(.bottom, 45)
+                
+              
                 
                 /**
                  .foregroundColor(.white)
